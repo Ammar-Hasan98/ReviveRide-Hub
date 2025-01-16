@@ -48,4 +48,8 @@ Ensure you have the following installed:
    git clone https://github.com/Ammar-Hasan98/ReviveRide-Hub-.git
    ```
 
-g
+## Demo: ReviveRide Hub System 📸
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/df6d4035-6ffe-4b81-87cb-c80214565009" controls width="600">
+  </video>
+</div>
