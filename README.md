@@ -32,14 +32,18 @@ ReviveRide Hub System is a web-based platform designed to seamlessly connect cus
 ### Tools:
 - **Visual Studio Code**: Development environment for both frontend and backend.
 
-revive-ride-hub/
-├── backend/
-│   ├── src/
-│   ├── pom.xml
-│   └── application.properties
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   ├── package.json
-│   └── README.md
-└── README.md
+## Installation and Setup 📦
+
+Follow these steps to set up the ReviveRide Hub System on your local machine:
+
+### Prerequisites
+Ensure you have the following installed:
+- **Node.js**: [Download and install](https://nodejs.org/)
+- **Java (JDK 11 or later)**: [Download and install](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- **MySQL**: [Download and install](https://www.mysql.com/)
+- **Maven**: [Download and install](https://maven.apache.org/install.html)
+
+### Steps
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/reviveride-hub-system.git
