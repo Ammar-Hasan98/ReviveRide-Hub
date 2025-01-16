@@ -46,3 +46,6 @@ Ensure you have the following installed:
 **Clone the repository**:
    ```bash
    git clone https://github.com/Ammar-Hasan98/ReviveRide-Hub-.git
+   ```
+
+g
