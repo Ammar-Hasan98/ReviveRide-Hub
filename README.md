@@ -31,3 +31,15 @@ ReviveRide Hub System is a web-based platform designed to seamlessly connect cus
 
 ### Tools:
 - **Visual Studio Code**: Development environment for both frontend and backend.
+
+revive-ride-hub/
+├── backend/
+│   ├── src/
+│   ├── pom.xml
+│   └── application.properties
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── package.json
+│   └── README.md
+└── README.md
