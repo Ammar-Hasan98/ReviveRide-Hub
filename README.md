@@ -45,4 +45,4 @@ Ensure you have the following installed:
 <br>
 **Clone the repository**:
    ```bash
-   git clone https://github.com/Ammar-Hasan98/reviveride-hub.git
+   git clone https://github.com/Ammar-Hasan98/ReviveRide-Hub-.git
