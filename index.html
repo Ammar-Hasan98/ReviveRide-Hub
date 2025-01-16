@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Footcap - Find your footware</title>
+
+        <!--
+            - favicon
+        -->
+        <link rel="shortcut icon" href="./favicon-32x32.png" type="image/svg+xml">
+
+        <!--
+            - custom css link
+        -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+         <!--
+            - google font link
+         -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+
+
+        <!--
+            - Preload panner
+         -->
+         <link rel="Preload" href="./assets/images/parts.jpg" as="image">
+    </head>
+
+    <body>
+        <!--
+            - Header
+        -->
+        <header class="header" data-header>
+            <div class="container">
+                <div class="overlay" data-overlay></div>
+                    <a href="#" class="logo">
+                        <img src="./assets/images/Logo.png" width="160" height="50" alt="Footcap logo">
+                    </a>
+
+                    <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+
+                    <nav class="navbar" data-navbar>
+                        
+                        <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+                            <ion-icon name="Close-outline"></ion-icon>
+                        </button>
+                        <a href="#" class="logo">
+                            <img src="./assets/images/Logo.png" width="160" height="160" alt="Footcap logo">
+                        </a>
+
+                        <ul class="navbar-list">
+
+                            <li class="nav-item">
+                                <a href="#" class="navbar-link">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="navbar-link">Products</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="navbar-link">Shop</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="navbar-link">Contact</a>
+                            </li>
+                        </ul>
+
+                        <ul class="nav-action-list">
+
+                            <li>
+                                <button class="nav-action-btn">
+                                    <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+
+                                    <span class="nav-action-text">Search</span>
+                                </button>
+                            </li>
+
+                            <li>
+                                <a href="#" class="nav-action-btn">
+                                    <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                                    
+                                    <span class="nav-action-text">Login / Register</span>
+                                </a>
+                            </li>
+
+                            <li>
+                                <button class="nav-action-btn">
+                                    <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                                    
+                                    <span class="nav-action-text">Wishlist</span>
+
+                                    <data class="nav-action-badge" value="5" aria-hidden="true">5</data>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button class="nav-action-btn">
+                                    <ion-icon name="bag-outline" aria-hidden="true"></ion-icon>
+                                    
+                                    <data class="nav-action-text" value="318.00">Basket: <strong>$318.00</strong></data>
+
+                                    <data class="nav-action-badge" value="4" aria-hidden="true">4</data>
+                                </button>
+                            </li>
+                        </ul>
+                    </nav>
+                
+            </div>
+        </header>
+
+
+
+        <main>
+            <article>
+
+                <!--
+                    - Hero
+                -->
+
+                <section class="section hero" style="background-image: url('./assets/images/try.jpg')">
+
+                    <div class="container">
+
+                        <h2 class="h1 hero-title">
+                            New Summer <strong>Shoes Collection</strong>
+                        </h2>
+
+                        <p class="hero-text">Competently expedite alternative benefits whereas leading-edge catalysts for change. Globally leverage existing an expanded array of leadership.
+                        </p>
+
+                        <button class="btn btn-primary">
+                            <span>Shop now</span>
+
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </button>
+                    </div>
+                </section>
+
+
+
+
+                <!--
+                    - #Collection
+                -->
+
+                <section class="section collection">
+                    <div class="container">
+
+                        <ul class="collection-list has-scrollbar">
+
+                            <li>
+                                <div class="collection-card" style="background-image: url('./assets/images/collection-1.jpg')">
+                                    <h3 class="h4 card-tittle">Men collection</h3>
+
+                                    <a href="#" class="btn btn-secondary">
+                                        <span>Explore All </span>
+
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="collection-card" style="background-image: url('./assets/images/collection-2.jpg')">
+                                    <h3 class="h4 card-tittle">Women collection</h3>
+
+                                    <a href="#" class="btn btn-secondary">
+                                        <span>Explore All </span>
+
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="collection-card" style="background-image: url('./assets/images/collection-3.jpg')">
+                                    <h3 class="h4 card-tittle">Sports Collections</h3>
+
+                                    <a href="#" class="btn btn-secondary">
+                                        <span>Explore All </span>
+
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+                                </div>
+                            </li>
+
+
+
+
+                        </ul>
+                    </div>
+                </section>
+
+
+            </article>
+        </main>
+
+
+        <!--
+            - custom js link
+        -->
+        <script src="./assets/js/script.js"></script>
+
+        <!--
+            - ionicon link
+        -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    </body>
+</html>
