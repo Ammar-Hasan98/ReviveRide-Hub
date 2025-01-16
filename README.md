@@ -42,7 +42,6 @@ Ensure you have the following installed:
 - **Java (JDK 11 or later)**: [Download and install](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 - **MySQL**: [Download and install](https://www.mysql.com/)
 - **Maven**: [Download and install](https://maven.apache.org/install.html)
-<br>
 **Clone the repository**:
    ```bash
    git clone https://github.com/Ammar-Hasan98/ReviveRide-Hub-.git
